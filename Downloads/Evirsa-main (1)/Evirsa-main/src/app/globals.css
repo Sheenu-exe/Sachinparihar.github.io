@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+*{
+  font-family: Poppins;
+}
+#home{
+  background:url('./components/inner\ pers.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-new { background: -webkit-linear-gradient(360deg,#030303 10%,#1f1f1f 360%); background: linear-gradient(360deg,#030303 10%,#1f1f1f 360%); }
+#cta{
+  background: url("./components/grid4.jpeg");
+  background-size: cover;
+}
